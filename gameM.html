@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html id="Full">
+     <head>
+         <style>
+            #Full{
+                background: red
+            }
+            h1{
+                padding-left: 220px;
+            }
+            #Controls{
+                position:absolute;
+                top: 300px;
+                left:720px; 
+            }
+            #ControlTitle{
+                padding-left: 0px;
+            }
+            #PlayerId{
+                position:absolute;
+                top: 160px;
+                left:500px; 
+            }
+            #PlayerId2{
+               position:absolute;
+                top: 510px;
+                left:500px; 
+            }
+         </style>
+         <meta charset="UTF-8">
+         <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+         <script src="p5/p5.js"></script>
+         <script src="p5/p5.dom.js"></script>
+         <!--<script src="p5/p5.sound.js"></script>-->
+         <script src="sketchM.js"></script>
+         <script src="ball.js"></script>
+         <script src="rebounder.js"></script>
+         <script src="socket.io/socket.io.js"></script>
+
+         
+     </head>  
+     <div id="Header">
+     <h1>How To Play</h1>
+     <h2> Objective </h2>
+     <p> Each Player has two balls which will refresh after both balls have been released by the player and exited the field. The first person to hit the other WINS!!!! If one catches a ball(the ball has to land in between the two platforms) the player gains an extra ball.  Good Luck and Have Fun!
+     </div>
+     <div id="Controls">
+     <h1 id="ControlTitle"> Online Controls: </h1>
+     <h3> Right Arrow and Left Arrow <br> Up Arrow to Shoot </h3>
+     </div>
+     <div id="PlayerIds">
+     <h1 id="PlayerId">&#8666  Player 2 </h1>
+     <h1 id="PlayerId2">&#8666 You </h1>
+     </div>
+
+
+</html>
